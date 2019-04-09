@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="header">
+    <div class="logo">
+        <NavLink to="/">
+            &#10004;
+        </NavLink>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li>
+                <NavLink to="/">
+                    DASHBOARD
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/newproject">
+                    NEW PROJECT
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/teammembers">
+                    TEAM MEMBERS
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="project">
+    <div class="projectLeft">
+        <div class="title">
+            PROJECT TITLE
+        </div>
+        <div class="projectButtons">
+            <button>&#10010;</button>
+            <button>&#9998;</button>
+            <button>&#10006;</button>
+        </div>
+        <div class="taskList">
+            <ul>
+                <li>
+                    First task
+                    <div class="deleteButton">&#10006;</div>
+                </li>
+                <li>
+                    Second task
+                    <div class="deleteButton">&#10006;</div>
+                </li>
+                <li>
+                    Third task
+                    <div class="deleteButton">&#10006;</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="projectRight">
+        <div class="timeline">
+            <div class="months">
+                Nov
+            </div>
+            <div class="days">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+            <div class="tasks">
+
+                <div class="task">
+                    <div class="taskBar">
+                        <div class="progress green">
+                            75%
+                        </div>
+                    </div>
+                    <div class="teamMember">
+                        JB
+                    </div>
+                </div>
+
+                <div class="task" style="margin-left: 120px;">
+                    <div class="taskBar">
+                        <div class="progress yellow">
+                            50%
+                        </div>
+                    </div>
+                    <div class="teamMember">
+                        JB
+                    </div>
+                    <div class="teamMember">
+                        AE
+                    </div>
+                </div>
+
+                <div class="task" style="margin-left: 180px;">
+                    <div class="taskBar">
+                        <div class="progress red">
+                            20%
+                        </div>
+                    </div>
+                    <div class="teamMember">
+                        JB
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
